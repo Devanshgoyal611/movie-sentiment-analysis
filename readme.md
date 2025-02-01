@@ -15,8 +15,8 @@ A machine learning web application that predicts sentiment (positive/negative) f
 ```text
 .
 ├── app.py                 # Flask web application
-├── db.py                  # Script to store raw data in SQLite
-├── model.ipynb            # Jupyter notebook for EDA and modeling
+├── data_ingestion.py      # Script to store raw data in SQLite
+├── model_training.ipynb   # Jupyter notebook for EDA and modeling
 ├── Cleaned_movies.db      # Cleaned/preprocessed data
 ├── movies.db              # Raw movie data
 ├── requirements.txt       # Dependency list
